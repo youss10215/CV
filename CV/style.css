@@ -1,0 +1,39 @@
+.container{
+    font-family: 'Roboto Slab', serif;
+}
+.left-panel{
+    background-color: aqua;
+    
+}
+.idcard{
+    background-color: #2a2a2a;
+    width: 100%;
+}
+
+
+.listeMenu{
+    
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    background-color: #ffd42d;
+    border: black solid 1px;
+   
+}
+
+.titreMenu{
+     color:#2a2a2a;
+     text-align: center;
+}
+
+
+
+
+ /*@media screen and (max-width: 640px) {
+	ul li.listeMenu {
+		
+    }
+    
+}
+*/
+
