@@ -1,5 +1,5 @@
 .container{
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab","Helvetica","Arial",sans-serif;
 }
 .left-panel{
     background-color: aqua;
@@ -21,19 +21,104 @@
    
 }
 
+.listeMenu a img {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
 .titreMenu{
      color:#2a2a2a;
      text-align: center;
+     font-weight: bold;
 }
 
 
 
+.mainTitle h1{
+    font-size: 45px;
+    font-weight: 400;
+}
 
- /*@media screen and (max-width: 640px) {
-	ul li.listeMenu {
-		
-    }
+.mainTitle h3{
+
+font-size: 20px;
+color: #999999;
+font-weight: 300;
+
+}
+
+
+
+p{
+    color: #999999;  
+}
+
+#parcours1{
+    
+
+}
+
+#parcours2{
+    border-left: 1px solid #999999; 
     
 }
-*/
+
+#line{
+    float: none;
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+    background-color: #ffd42d;
+    border-radius: 50%;
+}
+
+
+.listeCompetence{
+    list-style-type: none;
+}
+
+
+.niveau{
+    float: none;
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+    background-color: #ffd42d;
+    border-radius: 50%;
+}
+.niveaux{
+    float: none;
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+    background-color: #999999;
+    border-radius: 50%;
+}
+
+
+/* Media queries */
+
+ @media screen and (max-width: 994px) {
+	ul {
+		display: flex;
+		
+    }
+
+   
+
+}
+
+@media screen and (max-width: 770px) {
+	ul {
+		display: flex;
+		
+    }
+
+    ul li span{
+        display: none;
+        
+    }
+
+}
+
 
