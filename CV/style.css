@@ -53,10 +53,6 @@ p{
     color: #999999;  
 }
 
-#parcours1{
-    
-
-}
 
 #parcours2{
     border-left: 1px solid #999999; 
@@ -98,7 +94,7 @@ p{
 
 /* Media queries */
 
- @media screen and (max-width: 994px) {
+ @media screen and (max-width: 991px) {
 	ul {
 		display: flex;
 		
@@ -109,10 +105,6 @@ p{
 }
 
 @media screen and (max-width: 770px) {
-	ul {
-		display: flex;
-		
-    }
 
     ul li span{
         display: none;
