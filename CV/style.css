@@ -24,17 +24,16 @@ body{
 
 .listeMenu{
     
+    background-color: #ffd42d;
     width: 100%;
     list-style-type: none;
     text-align: center;
-    background-color: white;
     border:#999999 solid 1px;
     
    
 }
 .listeMenu:hover{
-    background-color: #ffd42d;
-    
+    background-color: white;
 }
 
 .fas{
@@ -144,6 +143,15 @@ p{
     border-radius: 50%;
 }
 
+.loisir{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    
+}
+
 
 /* Media queries */
 
@@ -161,6 +169,9 @@ p{
     .titreMenu{
         display: none;
         
+    }
+    .titreSousMenu{
+        display: none;
     }
 
 }
