@@ -126,6 +126,11 @@ p{
     list-style-type: none;
 }
 
+.listeCompetenceLangage li{
+    list-style-type: none;
+    font-size: 1.16em;
+}
+
 .niveau{
     float: none;
     margin: 0 auto;
@@ -153,15 +158,13 @@ p{
 }
 
 
+
 /* Media queries */
 
  @media screen and (max-width: 991px) {
     .menu {
-		display: flex;
-	}
-
-   
-
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 770px) {
