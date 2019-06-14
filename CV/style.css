@@ -3,7 +3,7 @@ body{
 }
 .container{
     font-family: "Roboto Slab","Helvetica","Arial",sans-serif;
-    font-size: 15px;
+    font-size: 5x;
     padding: 50px;
     
 }
@@ -29,17 +29,14 @@ body{
     list-style-type: none;
     text-align: center;
     border:#999999 solid 1px;
-    
-   
 }
+
 .listeMenu:hover{
     background-color: white;
 }
 
 .fas{
-    
-   color:#2a2a2a;
-   
+    color:#2a2a2a;
 }
 
 .menu a{
@@ -59,7 +56,13 @@ text-decoration: none;
 }
 
 .titreSousMenu{
-    color: #999999;
+    color:#2a2a2a;
+    font-family: "Source Sans Pro","Helvetica","Arial",sans-serif;  
+    font-size: 13px;
+    font-weight: 400;
+}
+.titreSousMenu:hover{
+    color: #999999
 }
 
 .about{
@@ -67,26 +70,37 @@ text-decoration: none;
 }
 
 .mainTitle h1{
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 400;
 }
 
-.mainTitle h3{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
+#webDeveloper{
+    
+    font-size: 23px;
     color: #999999;
     font-weight: 300;
 }
+.mainTitle h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    color: #999999;
+    font-weight: 300;
+    
+}
 
 .subtitle{
-    font-size: 25px;
-    
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 
 
 p{
-    color: #999999;  
+    color: #999999;
+    font-style: italic; 
+    line-height: 30px; 
+    font-size: 15px;
 }
 
 .expFor{
@@ -154,7 +168,6 @@ p{
         align-items: center;
         justify-content: center;
       
-    
 }
 
 
@@ -176,7 +189,18 @@ p{
     .titreSousMenu{
         display: none;
     }
+    
+    .mainTitle h1 {
+        font-size: 30px;
+    }
 
+    .about{
+        
+    }
+    
+    p{
+        font-size: 15px;  
+    }
 }
 
 
