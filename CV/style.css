@@ -9,10 +9,20 @@ body{
 }
 
 .left-panel{
-    background-color: white;
+    background-color: #eaeaea;  
+   
 }
 
 .panel-container{
+    background-color: white;
+}
+
+#nom{
+    padding: 7px;
+    font-size: 13px;
+}
+
+.side{
     background-color: white;
 }
 
@@ -20,28 +30,44 @@ body{
     background-color: #2a2a2a;
     width: 100%;
 }
+.menu{
+    border: 1px solid #eaeaea;
+}
 
+.menu a{
+    text-decoration: none;
+    display: block;
+}
 
 .listeMenu{
-    
-    background-color: #ffd42d;
+    background-color: white;
     width: 100%;
     list-style-type: none;
     text-align: center;
-    border:#999999 solid 1px;
+    border-bottom:#eaeaea solid 1px;
+}
+
+.selected-tab{
+    background-color: #ffd42d;
+}
+
+.selected-tab .titreSousMenu{
+    color:#2a2a2a;
+}
+
+
+.listeMenu:nth-child(4){
+    border: none;
 }
 
 .listeMenu:hover{
-    background-color: white;
+    background-color: #ffd42d;
 }
 
 .fas{
     color:#2a2a2a;
 }
 
-.menu a{
-text-decoration: none;
-}
 
 .listeMenu a img {
     font-size: 25px;
@@ -53,16 +79,19 @@ text-decoration: none;
      color:#2a2a2a;
      text-align: center;
      font-weight: bold;
+     line-height: 10px;
+     margin-top: 15px;
 }
 
 .titreSousMenu{
-    color:#2a2a2a;
+    color: #999999;
     font-family: "Source Sans Pro","Helvetica","Arial",sans-serif;  
     font-size: 13px;
     font-weight: 400;
 }
-.titreSousMenu:hover{
-    color: #999999
+
+.listeMenu:hover .titreSousMenu{
+    color:#2a2a2a;
 }
 
 .about{
@@ -115,7 +144,8 @@ p{
 .parcours{
     border-left: 1px solid #999999; 
     list-style-type: none; 
-    color: #999999;
+    color: #999999; 
+    margin-bottom: 0.5rem;
 }
 
 .line{
@@ -170,11 +200,18 @@ p{
       
 }
 
-
+.numeroPage{
+    padding-bottom: 3rem;
+}
 
 /* Media queries */
 
  @media screen and (max-width: 991px) {
+
+    .container{
+        max-width: 100%;
+    }
+
     .menu {
         display: flex;
     }
@@ -182,6 +219,10 @@ p{
 
 @media screen and (max-width: 770px) {
 
+    .container{
+        max-width: 100%;
+        margin: 0 15px;
+    }
     .titreMenu{
         display: none;
         
